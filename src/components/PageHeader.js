@@ -15,7 +15,7 @@ const styles = makeStyles( theme =>({
         display:"inline-block",
         padding:theme.spacing(2),
         color:"#3c44b1",
-        // marginRight:theme.spacing(3)
+        marginRight:theme.spacing(3)
     },
     pageTitle:{
         paddingLeft:theme.spacing(2),
