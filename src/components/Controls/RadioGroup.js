@@ -14,7 +14,7 @@ function RadioGroup(props) {
                         items.map(
                             (items,index)=>(
                                 
-                            <FormControlLabel value={items.id} control={<Radio/>} label= {items.title}/>
+                            <FormControlLabel value={items.id} key={value.id} control={<Radio/>} label= {items.title}/>
                             )
                         ) 
                     }
